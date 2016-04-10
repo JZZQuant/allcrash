@@ -9,7 +9,7 @@ if [ ! -d "data" ]; then
 fi
 
 #for i in {0..10}
-for i in `seq 0 12`
+for i in `seq 0 32`
 do
 	j=$((i+1))
 	socks_port=$((base_socks_port+i))

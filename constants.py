@@ -1,6 +1,6 @@
 import math
 
-coupons = 12
+coupons = 32
 start = "http://www.printerplug.com/"
 max_load=100
 coupon_collection_rate=math.floor(max_load/math.log(coupons))
